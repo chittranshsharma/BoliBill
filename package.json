@@ -1,0 +1,13 @@
+{
+  "name": "bolibill",
+  "private": true,
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "dev": "pnpm --parallel --filter @bolibill/api --filter @bolibill/web dev",
+    "build": "pnpm -r build",
+    "check": "pnpm -r check",
+    "test": "pnpm -r test",
+    "db:generate": "pnpm --filter @bolibill/api db:generate",
+    "db:migrate": "pnpm --filter @bolibill/api db:migrate"
+  }
+}

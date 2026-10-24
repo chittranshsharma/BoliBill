@@ -1,0 +1,1 @@
+ALTER TABLE "products" ADD CONSTRAINT "products_unit_check" CHECK ("products"."unit" in ('each', 'kg', 'g', 'l', 'ml'));

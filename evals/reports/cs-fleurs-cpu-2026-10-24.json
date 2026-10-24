@@ -1,0 +1,229 @@
+{
+  "method": "cold command process per clip; model load and transcription included; CPU only",
+  "engine": "whisper-cli.exe",
+  "engine_version": "whisper.cpp version: 1.9.5",
+  "machine": {
+    "system": "Windows",
+    "release": "11",
+    "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel"
+  },
+  "threads": 4,
+  "language_setting": "hi",
+  "dataset": "CS-FLEURS read/test hin-eng, CC BY-NC 4.0; all clips are one speaker and not billing speech",
+  "normalization": "NFKC, casefold, punctuation removed; mixed-script orthographic differences remain errors",
+  "models": [
+    {
+      "name": "tiny",
+      "path": "ggml-tiny.bin",
+      "model_bytes": 77691713,
+      "word_error_rate": 0.9242,
+      "character_error_rate": 0.7401,
+      "total_wall_seconds": 6.201,
+      "total_audio_seconds": 31.02,
+      "samples": [
+        {
+          "id": "hin_1889_AD",
+          "reference": "इसने हमें train, car और इसी प्रकार के कई अन्य transportation devices दिए हैं।",
+          "transcript": "اس nay we may train, car and AC precar kekei, under transportation devices",
+          "audio_seconds": 6.48,
+          "wall_seconds": 1.157,
+          "real_time_factor": 0.179,
+          "word_edits": 12,
+          "reference_words": 14,
+          "character_edits": 37,
+          "reference_characters": 62
+        },
+        {
+          "id": "hin_1791_AD",
+          "reference": "चीज़ों को deface न करें marking या scratching graffiti करके structures पर.",
+          "transcript": "Chizom ko defes na karayi, markingya, scratching graffiti, karke, stakchasper",
+          "audio_seconds": 5.46,
+          "wall_seconds": 1.484,
+          "real_time_factor": 0.272,
+          "word_edits": 10,
+          "reference_words": 12,
+          "character_edits": 34,
+          "reference_characters": 62
+        },
+        {
+          "id": "hin_1860_AD",
+          "reference": "राज्यपाल के कार्यालय ने बताया कि घायलों में से उन्नीस police officers थे।",
+          "transcript": "Rajyapal karya le ne betaya ki ghaelowmhe se un niss police officer",
+          "audio_seconds": 6.72,
+          "wall_seconds": 1.302,
+          "real_time_factor": 0.194,
+          "word_edits": 12,
+          "reference_words": 13,
+          "character_edits": 47,
+          "reference_characters": 60
+        },
+        {
+          "id": "hin_1748_AD",
+          "reference": "11:35 pm तक अग्नि बचाव दल ने अंततः आग बुझा दी थी.",
+          "transcript": "1135 PMTK, now i.5DK, and Tata Haar, Ar Bhujadeethi.",
+          "audio_seconds": 6.06,
+          "wall_seconds": 1.267,
+          "real_time_factor": 0.209,
+          "word_edits": 13,
+          "reference_words": 13,
+          "character_edits": 33,
+          "reference_characters": 36
+        },
+        {
+          "id": "hin_1728_AD",
+          "reference": "गोभी का juice रसायन के अम्लीय या आधारभूत (alkaline) होने पर रंग बदलता है.",
+          "transcript": "GoBhi ka ju sresayan ke abliya ya adhara booth Alkaline Honepar Rang Badal Tha.",
+          "audio_seconds": 6.3,
+          "wall_seconds": 0.991,
+          "real_time_factor": 0.157,
+          "word_edits": 14,
+          "reference_words": 14,
+          "character_edits": 54,
+          "reference_characters": 57
+        }
+      ]
+    },
+    {
+      "name": "base",
+      "path": "ggml-base.bin",
+      "model_bytes": 147951465,
+      "word_error_rate": 0.9545,
+      "character_error_rate": 0.9097,
+      "total_wall_seconds": 11.757,
+      "total_audio_seconds": 31.02,
+      "samples": [
+        {
+          "id": "hin_1889_AD",
+          "reference": "इसने हमें train, car और इसी प्रकार के कई अन्य transportation devices दिए हैं।",
+          "transcript": "اس نے ہمیں train, car & anya transportation devices",
+          "audio_seconds": 6.48,
+          "wall_seconds": 1.894,
+          "real_time_factor": 0.292,
+          "word_edits": 11,
+          "reference_words": 14,
+          "character_edits": 33,
+          "reference_characters": 62
+        },
+        {
+          "id": "hin_1791_AD",
+          "reference": "चीज़ों को deface न करें marking या scratching graffiti करके structures पर.",
+          "transcript": "چیزوں کو دیفیسنہ کرے مارکینگیاستراچین گرافیٹی کر کے ایسٹاکچہ سپر",
+          "audio_seconds": 5.46,
+          "wall_seconds": 2.892,
+          "real_time_factor": 0.53,
+          "word_edits": 12,
+          "reference_words": 12,
+          "character_edits": 62,
+          "reference_characters": 62
+        },
+        {
+          "id": "hin_1860_AD",
+          "reference": "राज्यपाल के कार्यालय ने बताया कि घायलों में से उन्नीस police officers थे।",
+          "transcript": "رجبال کے کاریہلے نے بتایا کہ گھائلوں میں سے اُنیس پلیس آفسرس تھے۔",
+          "audio_seconds": 6.72,
+          "wall_seconds": 2.323,
+          "real_time_factor": 0.346,
+          "word_edits": 13,
+          "reference_words": 13,
+          "character_edits": 60,
+          "reference_characters": 60
+        },
+        {
+          "id": "hin_1748_AD",
+          "reference": "11:35 pm तक अग्नि बचाव दल ने अंततः आग बुझा दी थी.",
+          "transcript": "11.35 PM TAK Agni Bhajav Dal Ne Antataha Ag Bhujaadhi Thi",
+          "audio_seconds": 6.06,
+          "wall_seconds": 2.209,
+          "real_time_factor": 0.364,
+          "word_edits": 10,
+          "reference_words": 13,
+          "character_edits": 40,
+          "reference_characters": 36
+        },
+        {
+          "id": "hin_1728_AD",
+          "reference": "गोभी का juice रसायन के अम्लीय या आधारभूत (alkaline) होने पर रंग बदलता है.",
+          "transcript": "گو بھی کا جو اس رسائن کے عملیہ یا آدھار بھوت آلکلائن ہونے پر رنگ بدلتا ہے",
+          "audio_seconds": 6.3,
+          "wall_seconds": 2.439,
+          "real_time_factor": 0.387,
+          "word_edits": 17,
+          "reference_words": 14,
+          "character_edits": 57,
+          "reference_characters": 57
+        }
+      ]
+    },
+    {
+      "name": "vosk-hi",
+      "path": "vosk-model-small-hi-0.22",
+      "model_bytes": 82084166,
+      "word_error_rate": 0.3485,
+      "character_error_rate": 0.4621,
+      "total_wall_seconds": 12.34,
+      "total_audio_seconds": 31.02,
+      "samples": [
+        {
+          "id": "hin_1889_AD",
+          "reference": "इसने हमें train, car और इसी प्रकार के कई अन्य transportation devices दिए हैं।",
+          "transcript": "इसने हमें ट्रेन कार और इसी प्रकार की कई अन्य ट्रांसपोर्टेशन डिवाइसेज दिए हैं",
+          "audio_seconds": 6.48,
+          "wall_seconds": 2.005,
+          "real_time_factor": 0.309,
+          "word_edits": 5,
+          "reference_words": 14,
+          "character_edits": 31,
+          "reference_characters": 62
+        },
+        {
+          "id": "hin_1791_AD",
+          "reference": "चीज़ों को deface न करें marking या scratching graffiti करके structures पर.",
+          "transcript": "चीजों को डिशेस न करें मार्किंग क्रासिंग अफरीदी करके स्ट्रक्चर्स पर",
+          "audio_seconds": 5.46,
+          "wall_seconds": 2.416,
+          "real_time_factor": 0.442,
+          "word_edits": 7,
+          "reference_words": 12,
+          "character_edits": 45,
+          "reference_characters": 62
+        },
+        {
+          "id": "hin_1860_AD",
+          "reference": "राज्यपाल के कार्यालय ने बताया कि घायलों में से उन्नीस police officers थे।",
+          "transcript": "राज्यपाल के कार्यालय ने बताया कि घायलों में से उन्नीस पुलिस ऑफिसर थे",
+          "audio_seconds": 6.72,
+          "wall_seconds": 2.026,
+          "real_time_factor": 0.301,
+          "word_edits": 2,
+          "reference_words": 13,
+          "character_edits": 14,
+          "reference_characters": 60
+        },
+        {
+          "id": "hin_1748_AD",
+          "reference": "11:35 pm तक अग्नि बचाव दल ने अंततः आग बुझा दी थी.",
+          "transcript": "इलेवन छोटी साइज पीएम तक अपनी बचाव दल ने अंततः आग बुझा दी थी",
+          "audio_seconds": 6.06,
+          "wall_seconds": 3.002,
+          "real_time_factor": 0.495,
+          "word_edits": 5,
+          "reference_words": 13,
+          "character_edits": 20,
+          "reference_characters": 36
+        },
+        {
+          "id": "hin_1728_AD",
+          "reference": "गोभी का juice रसायन के अम्लीय या आधारभूत (alkaline) होने पर रंग बदलता है.",
+          "transcript": "गोभी का जूस रसायन के अपनी है या आधारभूत लाइन होने पर रंग बदलता है",
+          "audio_seconds": 6.3,
+          "wall_seconds": 2.891,
+          "real_time_factor": 0.459,
+          "word_edits": 4,
+          "reference_words": 14,
+          "character_edits": 18,
+          "reference_characters": 57
+        }
+      ]
+    }
+  ]
+}

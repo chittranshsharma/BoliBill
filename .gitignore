@@ -1,0 +1,14 @@
+.cache/
+.venv*/
+__pycache__/
+*.pyc
+evals/private/
+evals/reports/local-*.json
+node_modules/
+**/node_modules/
+**/.next/
+**/dist/
+apps/api/.env
+apps/api/data/
+*.tsbuildinfo
+.playwright-cli/
